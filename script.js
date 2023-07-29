@@ -56,7 +56,7 @@ async function wetherApp(captionSearch) {
     }
 }
 
-search.onkeypress = function (e) {
+search.onkeyup = function (e) {
     if (e.code === "Enter") {
         let captionSearch = search.value.trim();
         wetherApp(captionSearch);
