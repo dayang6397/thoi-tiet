@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wether {
+  background: rgb(37, 119, 144);
+  background-image: url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hot{
+  background-image: url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hot .wether{
+  background-image: url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.liangkuai{
+  background-image: url(https://images.unsplash.com/photo-1538964173425-93884d739596?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGJlYWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.liangkuai .wether{
+  background-image: url(https://images.unsplash.com/photo-1538964173425-93884d739596?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGJlYWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.leng{
+  background-image: url(https://images.unsplash.com/photo-1612208695882-02f2322b7fee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sZCUyMHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.leng .wether{
+  background-image: url(https://images.unsplash.com/photo-1612208695882-02f2322b7fee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sZCUyMHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.youwu{
+  background-image: url(https://images.unsplash.com/photo-1599806112354-67f8b5425a06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGRhcmslMjB3ZWF0aGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.youwu .wether{
+  background-image: url(https://images.unsplash.com/photo-1599806112354-67f8b5425a06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGRhcmslMjB3ZWF0aGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wennuan{
+  background-image: url(https://images.unsplash.com/photo-1577676366305-bb5681686646?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHdhcm18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wennuan .wether{
+  background-image: url(https://images.unsplash.com/photo-1577676366305-bb5681686646?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHdhcm18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.xiayu{
+  background-image: url(https://images.unsplash.com/photo-1488034976201-ffbaa99cbf5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHJhaW55JTIwY2hpbmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.xiayu .wether{
+  background-image: url(https://images.unsplash.com/photo-1488034976201-ffbaa99cbf5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHJhaW55JTIwY2hpbmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.search {
+  margin: 0 auto;
+  border-bottom-left-radius: 14px;
+  border-top-right-radius: 14px;
+  padding: 8px 12px;
+  outline: none;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s linear;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 19px;
+}
+
+.search:focus {
+  background: rgba(255, 255, 255, 0.7);
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.content{
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.capital-all{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 8px;
+}
+
+.time, .date {
+  color: #fff;
+  font-size: 15px;
+}
+
+.wendu{
+  font-size: 50px;
+  font-weight: 800;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.3);
+  width: 70%;
+  margin: 15px auto;
+  padding: 25px 0px 18px;
+  border-radius: 15px;
+}
+
+.tianqi{
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 28px;
+  font-size: 30px;
+font-weight: 600;
+}
+
+.box{
+  margin: 30px 0 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shuju-number{
+  margin-top: 8px;
+}
+
+.hide{
+  visibility: hidden;
+  opacity: 0;
+}
