@@ -60,6 +60,7 @@ search.onkeyup = function (e) {
     if (e.code === "Enter" || e.keyCode === 13 ) {
         let captionSearch = search.value.trim();
         wetherApp(captionSearch);
+        search.value = ''
     }
 };
 wetherApp("ha noi");
