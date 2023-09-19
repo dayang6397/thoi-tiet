@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png');
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1565199868669-85a46c62747f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHN1bnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,7 +19,7 @@ body {
 
 .wether {
   background: rgb(37, 119, 144);
-  background-image: url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png);
+  background-image: url(https://images.unsplash.com/photo-1565199868669-85a46c62747f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHN1bnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -31,13 +31,13 @@ body {
 }
 
 .hot{
-  background-image: url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png);
+  background-image: url(https://images.unsplash.com/photo-1565199868669-85a46c62747f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHN1bnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .hot .wether{
-  background-image: url(https://www.nodemy.vn/projects/html-css-js/weather-app/hot.png);
+  background-image: url(https://images.unsplash.com/photo-1565199868669-85a46c62747f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHN1bnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

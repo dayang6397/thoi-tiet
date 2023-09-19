@@ -1,6 +1,7 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
+
 const content = $(".content");
 const search = $(".search");
 const capital = $(".capital");
